@@ -21,6 +21,9 @@ public class ModItems {
     public static final DeferredItem<Item> COPPERKEY = ITEMS.register("copper_key",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> COPPERNUGGET = ITEMS.register("copper_nugget",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

@@ -1,5 +1,6 @@
 {
   "item.storageexpanded.gold_key" : "Gold Key",
   "item.storageexpanded.iron_key" : "Iron Key",
-  "item.storageexpanded.copper_key" : "Copper Key"
+  "item.storageexpanded.copper_key" : "Copper Key",
+  "item.storageexpanded.copper_nugget" : "Copper Nugget"
 }

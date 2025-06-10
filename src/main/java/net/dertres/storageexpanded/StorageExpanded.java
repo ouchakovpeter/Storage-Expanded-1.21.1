@@ -60,6 +60,9 @@ public class StorageExpanded
             event.accept(ModItems.IRONKEY);
             event.accept(ModItems.COPPERKEY);
         }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.COPPERNUGGET);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
