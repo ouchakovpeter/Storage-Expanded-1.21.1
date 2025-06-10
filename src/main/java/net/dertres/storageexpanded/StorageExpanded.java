@@ -1,5 +1,7 @@
 package net.dertres.storageexpanded;
 
+import net.dertres.storageexpanded.block.ModBlocks;
+import net.dertres.storageexpanded.item.ModCreativeModeTabs;
 import net.dertres.storageexpanded.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -40,7 +42,10 @@ public class StorageExpanded
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -55,11 +60,6 @@ public class StorageExpanded
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(ModItems.GOLDKEY);
-            event.accept(ModItems.IRONKEY);
-            event.accept(ModItems.COPPERKEY);
-        }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.COPPERNUGGET);
         }
