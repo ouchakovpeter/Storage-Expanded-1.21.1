@@ -2,6 +2,7 @@ package net.dertres.storageexpanded.item.custom;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
@@ -10,18 +11,10 @@ import net.minecraft.world.level.block.Block;
 
 import java.util.Properties;
 
+//item constructor
 public class gold_key extends Item {
-    public gold_key(Properties properties){
+    public gold_key(Properties properties) {
         super(properties);
     }
 
-
-
-    @Override
-    public InteractionResult useOn(UseOnContext context){
-        Level level = context.getLevel();
-        Block clickedblock = level.getBlockState(context.getClickedPos()).getBlock();
-
-        return super.useOn(context);
-    }
 }
