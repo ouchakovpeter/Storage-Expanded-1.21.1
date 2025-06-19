@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "": {
+      "model": "storageexpanded:block/lockable_oak_door"
+    }
+  }
+}
