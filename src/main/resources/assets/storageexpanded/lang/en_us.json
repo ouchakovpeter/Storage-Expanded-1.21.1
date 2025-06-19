@@ -4,8 +4,8 @@
   "item.storageexpanded.copper_key" : "Copper Key",
   "item.storageexpanded.copper_nugget" : "Copper Nugget",
 
-  "block.storageexpnded.lockable_oak_trapdoor" : "Lockable Oak Trapdoor",
-  "block.storageexpnded.lockable_oak_door" : "Lockable Oak Door",
+  "block.storageexpanded.lockable_oak_trapdoor" : "Lockable Oak Trapdoor",
+  "block.storageexpanded.lockable_oak_door" : "Lockable Oak Door",
 
   "creativetab.storageexpanded.items" : "Storage Expanded"
 }

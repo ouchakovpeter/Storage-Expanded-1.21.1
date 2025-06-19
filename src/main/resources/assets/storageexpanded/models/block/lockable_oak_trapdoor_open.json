@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_open",
+  "textures": {
+    "texture": "storageexpanded:block/lockable_oak_trapdoor"
+  }
+}

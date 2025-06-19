@@ -1,7 +1,12 @@
 {
-  "variants" : {
-    "": {
-      "model": "storageexpanded:block/lockable_oak_door"
-    }
+  "variants": {
+    "facing=north,half=lower,hinge=left,open=false,powered=false": { "model": "storageexpanded:block/lockable_oak_door_bottom" },
+    "facing=north,half=upper,hinge=left,open=false,powered=false": { "model": "storageexpanded:block/lockable_oak_door_top" },
+    "facing=north,half=lower,hinge=left,open=true,powered=false": { "model": "storageexpanded:block/lockable_oak_door_bottom", "y": 90 },
+    "facing=north,half=upper,hinge=left,open=true,powered=false": { "model": "storageexpanded:block/lockable_oak_door_top", "y": 90 },
+    "facing=north,half=lower,hinge=right,open=false,powered=false": { "model": "storageexpanded:block/lockable_oak_door_bottom", "y": 270 },
+    "facing=north,half=upper,hinge=right,open=false,powered=false": { "model": "storageexpanded:block/lockable_oak_door_top", "y": 270 },
+    "facing=north,half=lower,hinge=right,open=true,powered=false": { "model": "storageexpanded:block/lockable_oak_door_bottom", "y": 0 },
+    "facing=north,half=upper,hinge=right,open=true,powered=false": { "model": "storageexpanded:block/lockable_oak_door_top", "y": 0 }
   }
 }

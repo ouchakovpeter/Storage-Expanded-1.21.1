@@ -1,7 +1,7 @@
 {
-  "variants" : {
-    "": {
-      "model": "storageexpanded:block/lockable_oak_trapdoor"
-    }
+  "variants": {
+    "facing=north,half=bottom,open=false": { "model": "storageexpanded:block/lockable_oak_trapdoor_bottom" },
+    "facing=north,half=bottom,open=true": { "model": "storageexpanded:block/lockable_oak_trapdoor_open" },
+    "facing=north,half=top,open=false": { "model": "storageexpanded:block/lockable_oak_trapdoor_top" }
   }
 }

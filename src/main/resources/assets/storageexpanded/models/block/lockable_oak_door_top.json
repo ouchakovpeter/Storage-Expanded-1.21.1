@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "texture": "storageexpanded:block/lockable_oak_door_bottom"
+  }
+}
