@@ -3,9 +3,12 @@
   "item.storageexpanded.iron_key" : "Iron Key",
   "item.storageexpanded.copper_key" : "Copper Key",
   "item.storageexpanded.copper_nugget" : "Copper Nugget",
+<<<<<<< HEAD
 
   "block.storageexpanded.lockable_oak_trapdoor" : "Lockable Oak Trapdoor",
   "block.storageexpanded.lockable_oak_door" : "Lockable Oak Door",
 
+=======
+>>>>>>> parent of 9e253fd (Broken Door)
   "creativetab.storageexpanded.items" : "Storage Expanded"
 }
